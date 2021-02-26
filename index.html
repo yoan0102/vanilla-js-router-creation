@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Router SPA Vanilla JS</title>
+</head>
+<body>
+  <nav>
+    <a href="#" 
+      onclick="onNavClick('/about'); return false;" 
+    >About</a>
+    <a href="#"
+      onclick="onNavClick('/'); return false;"
+    >Home</a>
+    <a href="#" 
+      onclick="onNavClick('/contact'); return false"
+    >Contact</a>
+  </nav>
+
+  <div id="root"></div>
+  <script src="./js/router.js"></script>
+</body>
+</html>
